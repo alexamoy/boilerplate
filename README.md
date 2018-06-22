@@ -11,6 +11,7 @@ Step by step setup guide for the NERDS stack
 1. `mkdir boilerplate` then `cd boilerplate`
 2. Create package.json with `npm init`
 3. `git init` and make a .gitignore:
+
     ```
     node_modules
     bundle.js
