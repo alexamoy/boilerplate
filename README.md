@@ -41,7 +41,7 @@ Step by step setup guide for the NERDS stack
 7. Create `.babelrc` for the babel-presets that were installed
 8. Set start script `npm start` command to build your client javascript and run server (see package.json)
 9. Set build script `npm run build` command to build your bundle.js
-9. Create file structure:
+10. Create file structure:
 
     ```
     /server
@@ -56,3 +56,4 @@ Step by step setup guide for the NERDS stack
       /components => React components go here
       /store => store and redux reducers should go here
     ```
+11. Go ahead and run `npm start`, open up localhost:1337 to see 'Hello, world!'
