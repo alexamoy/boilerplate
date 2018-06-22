@@ -9,13 +9,14 @@ Step by step setup guide for the NERDS stack
 ## Steps
 
 1. `mkdir boilerplate` then `cd boilerplate`
-2. Create package.json with `npm init`
+2. Create package.json with `npm init -y`
 3. `git init` and make a .gitignore:
 
     ```
     node_modules
     bundle.js
     bundle.js.map
+    .DS_Store
     ```
 4. dependencies (npm install): => this will create node_modules and package-lock.json
     - express
@@ -51,7 +52,6 @@ Step by step setup guide for the NERDS stack
     /public
       /index.html
       /style.css
-      /bundle.js
     /client
       /components => React components go here
       /store => store and redux reducers should go here
