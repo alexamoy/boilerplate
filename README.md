@@ -42,6 +42,8 @@ Step by step setup guide for the NERDS stack
 8. Set start script `npm start` command to build your client javascript and run server (see package.json)
 9. Set build script `npm run build` command to build your bundle.js
 9. Create file structure:
+
+    ```
     /server
       /api => your back-end routes should go here
       /db
@@ -53,3 +55,4 @@ Step by step setup guide for the NERDS stack
     /client
       /components => React components go here
       /store => store and redux reducers should go here
+    ```
